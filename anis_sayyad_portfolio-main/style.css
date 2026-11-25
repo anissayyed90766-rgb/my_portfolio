@@ -685,3 +685,13 @@ section {
         padding: 1.5rem 5%;
     }
 }
+
+/* --- Admin-controlled layout (sections can be hidden / reordered / added) --- */
+[data-sec][hidden] { display: none !important; }
+.custom-block .section-header { margin-bottom: 1.5rem; }
+.custom-block .custom-body { color: var(--text-main); line-height: 1.7; font-size: 1rem; max-width: 900px; }
+.custom-block .custom-body p { margin-bottom: 1rem; color: var(--text-muted); }
+.custom-block .custom-body h1, .custom-block .custom-body h2, .custom-block .custom-body h3 { font-family: var(--font-heading); margin: 1rem 0 .6rem; letter-spacing: 1px; }
+.custom-block .custom-body a { color: var(--red); }
+.custom-block .custom-body img { max-width: 100%; height: auto; border-radius: 4px; }
+.custom-block .custom-body ul, .custom-block .custom-body ol { margin: 0 0 1rem 1.4rem; color: var(--text-muted); }

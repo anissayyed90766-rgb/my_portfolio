@@ -20,7 +20,7 @@
 
     <main id="content">
         <!-- Hero Section -->
-        <section class="hero">
+        <section class="hero" data-sec="hero">
             <nav class="top-nav">
                 <div class="nav-left" id="hero-nav-left">DATA ANALYSIS, MACHINE LEARNING AND ARTIFICIAL INTELLIGENCE</div>
                 <div class="nav-right" id="hero-nav-right">AVAILABLE FOR FREELANCE <span class="plus">+</span></div>
@@ -65,10 +65,10 @@
         </section>
 
         <!-- Selected Projects Section -->
-        <section class="projects">
+        <section class="projects" data-sec="projects">
             <div class="section-header">
-                <h2>SELECTED PROJECTS</h2>
-                <a href="#" class="view-all">VIEW ALL PROJECTS &rarr;</a>
+                <h2 data-edit="projectsHeading">SELECTED PROJECTS</h2>
+                <a href="#" class="view-all"><span data-edit="viewAll">VIEW ALL PROJECTS</span> &rarr;</a>
             </div>
 
             <div class="project-grid" id="project-grid">
@@ -141,11 +141,11 @@
         </section>
 
         <!-- Education & Skills / Work Process Section -->
-        <section class="details-section">
+        <section class="details-section" data-sec="details">
             <div class="details-col">
-                <h2>EDUCATION & SKILLS</h2>
+                <h2 data-edit="detailsHeading">EDUCATION & SKILLS</h2>
 
-                <h3 class="red-title">EDUCATION</h3>
+                <h3 class="red-title" data-edit="educationHeading">EDUCATION</h3>
                 <div id="edu-list">
                 <div class="edu-item">
                     <div>
@@ -157,7 +157,7 @@
                 </div>
 
 
-                <h3 class="red-title mt-4">SKILLS</h3>
+                <h3 class="red-title mt-4" data-edit="skillsHeading">SKILLS</h3>
                 <div class="skills-grid" id="skills-list">
                     <span class="skill-tag">DATA ANALYSIS</span>
                     <span class="skill-tag">MACHINE LEARNING</span>
@@ -172,7 +172,7 @@
             </div>
 
             <div class="details-col process-col">
-                <h2>WORK PROCESS</h2>
+                <h2 data-edit="processHeading">WORK PROCESS</h2>
                 <div class="timeline" id="process-list">
                     <div class="process-item">
                         <div class="process-num">01</div>
@@ -231,32 +231,32 @@
         </section>
 
         <!-- Contact Section -->
-        <section class="contact-section">
+        <section class="contact-section" data-sec="contact">
             <div class="contact-header">
                 <h2 id="contact-heading">LET'S WORK<br>TOGETHER <span class="star">✦</span></h2>
                 <p id="contact-text">I'm currently open for new projects and collaborations. Let's create something amazing that drives
                     results.</p>
                 <div class="available-badge">
-                    <span class="arrow-circle">&rarr;</span> AVAILABLE FOR FREELANCE
+                    <span class="arrow-circle">&rarr;</span> <span data-edit="contactBadge">AVAILABLE FOR FREELANCE</span>
                 </div>
             </div>
             <div class="contact-content">
                 <form class="contact-form" id="contact-form" action="#" method="POST">
                     <div class="form-group">
-                        <input type="text" name="name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="text" name="name" placeholder="Your Name" data-edit-ph="namePh" required>
+                        <input type="email" name="email" placeholder="Your Email" data-edit-ph="emailPh" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="subject" placeholder="Subject" required>
+                        <input type="text" name="subject" placeholder="Subject" data-edit-ph="subjectPh" required>
                     </div>
                     <div class="form-group">
-                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <textarea name="message" rows="5" placeholder="Your Message" data-edit-ph="messagePh" required></textarea>
                     </div>
-                    <button type="submit" class="submit-btn">SEND MESSAGE &rarr;</button>
+                    <button type="submit" class="submit-btn"><span data-edit="sendButton" data-edit-panel>SEND MESSAGE</span> &rarr;</button>
                 </form>
 
                 <div class="contact-info">
-                    <h3 class="contact-heading">Contact Details</h3>
+                    <h3 class="contact-heading" data-edit="contactInfoHeading">Contact Details</h3>
                     <ul id="contact-list">
                         <li><span class="icon">&#9993;</span>anissayyad90766@gmail.com</li>
                         <li><span class="icon">&#128222;</span>+91 7057477861</li>
